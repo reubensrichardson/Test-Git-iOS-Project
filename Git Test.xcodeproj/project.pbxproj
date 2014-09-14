@@ -21,6 +21,7 @@
 		5491BC5B19C54F130096C30B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5491BC3D19C54F120096C30B /* UIKit.framework */; };
 		5491BC6319C54F130096C30B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5491BC6119C54F130096C30B /* InfoPlist.strings */; };
 		5491BC6519C54F130096C30B /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5491BC6419C54F130096C30B /* Git_TestTests.m */; };
+		54FB5FBD19C5592B00527FB5 /* LFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FB5FBC19C5592A00527FB5 /* LFTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5491BC6019C54F130096C30B /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		5491BC6219C54F130096C30B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5491BC6419C54F130096C30B /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		54FB5FBB19C5592A00527FB5 /* LFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFTest.h; path = ../LFTest.h; sourceTree = "<group>"; };
+		54FB5FBC19C5592A00527FB5 /* LFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFTest.m; path = ../LFTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				5491BC4B19C54F120096C30B /* Main.storyboard */,
 				5491BC4E19C54F120096C30B /* LFViewController.h */,
 				5491BC4F19C54F120096C30B /* LFViewController.m */,
+				54FB5FBB19C5592A00527FB5 /* LFTest.h */,
+				54FB5FBC19C5592A00527FB5 /* LFTest.m */,
 				5491BC5119C54F120096C30B /* Images.xcassets */,
 				5491BC4019C54F120096C30B /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5491BC4A19C54F120096C30B /* LFAppDelegate.m in Sources */,
+				54FB5FBD19C5592B00527FB5 /* LFTest.m in Sources */,
 				5491BC4619C54F120096C30B /* main.m in Sources */,
 				5491BC5019C54F120096C30B /* LFViewController.m in Sources */,
 			);
@@ -457,6 +463,7 @@
 				5491BC6A19C54F130096C30B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5491BC6B19C54F130096C30B /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				5491BC6D19C54F130096C30B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
